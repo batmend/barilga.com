@@ -1,5 +1,5 @@
 import React from "react";
-import GoToTop from "../../GoToTop";
+import GoToTop from "../../component/GoToTop";
 
 export default function Footer() {
   return (
