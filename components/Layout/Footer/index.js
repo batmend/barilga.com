@@ -1,4 +1,5 @@
 import React from "react";
+import GoToTop from "../../GoToTop";
 
 export default function Footer() {
   return (
@@ -1154,18 +1155,7 @@ export default function Footer() {
       {/* End Account Sidebar Navigation */}
       {/* ========== END SECONDARY CONTENTS ========== */}
       {/* Go to Top */}
-      <a
-        className="js-go-to u-go-to"
-        href="#"
-        data-position='{"bottom": 15, "right": 15 }'
-        data-type="fixed"
-        data-offset-top={400}
-        data-compensation="#header"
-        data-show-effect="slideInUp"
-        data-hide-effect="slideOutDown"
-      >
-        <span className="fas fa-arrow-up u-go-to__inner" />
-      </a>
+      <GoToTop />
       {/* End Go to Top */}
     </div>
   );
