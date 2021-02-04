@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function TopBar() {
   return (
@@ -28,9 +29,11 @@ export default function TopBar() {
           <div className="topbar-right ml-auto">
             <ul className="list-inline mb-0">
               <li className="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                <a href="#" className="u-header-topbar__nav-link">
-                  <i className="ec ec-map-pointer mr-1" /> Store Locator
-                </a>
+                <Link href="/posts/first-post">
+                  <a className="u-header-topbar__nav-link">
+                    <i className="ec ec-map-pointer mr-1" /> Store Locator
+                  </a>
+                </Link>
               </li>
               <li className="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                 <a
